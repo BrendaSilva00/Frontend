@@ -1,14 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-proyecto',
   templateUrl: './proyecto.component.html',
   styleUrls: ['./proyecto.component.css']
 })
-export class ProyectoComponent implements OnInit {
+export class ProyectoComponent implements OnInit{
 
-  constructor() { }
+  constructor ( ) { }
 
-  ngOnInit(): void {
+  ngOnInit ( ) : void {
   }
 }
