@@ -16,7 +16,7 @@ authURL = 'http://localhost:8080/auth/';
     return this.httpCient.post<any>(this.authURL + 'nuevo', nuevoUsuario);
    }
 
-   public login(liginUsuario: LoginUsuario): Observable<JwtDto>{
+   public login(loginUsuario: LoginUsuario): Observable<JwtDto>{
     return this.httpCient.post<JwtDto>(this.authURL + 'login', LoginUsuario)
    }
 
